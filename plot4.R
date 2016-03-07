@@ -56,7 +56,7 @@ plot(subset1$Sub_metering_1~subset1$datetime, type="l",
 lines(subset1$Sub_metering_2~subset1$datetime,col='Red')
 lines(subset1$Sub_metering_3~subset1$datetime,col='Blue')
 
-legend("topright", legend= c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col = c("black", "red", "blue"), lty=1, lwd=2)
+legend("topright", legend= c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col = c("black", "red", "blue"), lty=1, lwd=2, bty= "n")
 
 #Fourth plot
 
